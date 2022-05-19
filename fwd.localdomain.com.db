@@ -1,0 +1,11 @@
+$TTL 86400
+localdomain.com.	IN	SOA	ns.localdomain.com.	root.localdomain.com. (
+10030
+3600
+1800
+604800
+86400
+)
+@	IN	NS	ns.localdomain.com.
+ns	IN	A	10.0.1.201
+dns	IN	CNAME	ns.localdomain.com.
